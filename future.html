@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scary Clown Music Visualizer</title>
+  <link rel="stylesheet" href="future.css" />
+</head>
+<body>
+  <!-- Fullscreen canvas 🤡 -->
+  <canvas id="visualizer"></canvas>
+  <button id="menuToggle">☰</button>
+
+  <div id="controls">
+    <div class="search-section">
+      <input type="text" id="jamendoSearch" placeholder="Search music..." />
+      <button id="jamendoSearchBtn">Search</button>
+      <select id="jamendoResults"></select>
+      <button id="jamendoPlayBtn">Play</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+    <div class="upload-section">
+      <input type="file" id="audioFile" accept="audio/*" />
+    </div>
+    <div id="fireStatus">🔥 Fire Intensity: <span id="fireLevel">1.0</span></div>
+  </div>
+
+  <!-- 🔊 Volume Display -->
+  <div id="volumeDisplay" style="position: absolute; top: 10px; right: 10px; color: white; font-size: 1.2em;">
+    🔊 100%
+  </div>
+
+ <!-- ✅ Loads core Three.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.152.2/three.min.js"></script>
+
+<!-- ✅ Your own JS file -->
+<script src="future.js"></script>
+
