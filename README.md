@@ -24,7 +24,7 @@ The project integrates **Jamendo’s API** to allow music search and streaming, 
 
 ## How to Run Locally
 1. Clone the repo
-2. Open `index.html` (or `future.html`) in a browser
+2. Open `index.html` in a browser
 3. Make sure all asset files (textures, audio) are in the correct folders
 
 ## Contributor
