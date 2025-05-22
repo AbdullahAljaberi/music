@@ -1,19 +1,19 @@
 # 🎧 Clown Music Visualizer
 
 ## Description
-This project is a real-time 3D music visualizer built with **Three.js**, **Web Audio API**, and **JavaScript**. It features a reactive clown face that changes expression and behavior based on the intensity of the audio.
+Three.js, Web Audio API and JavaScript were used to create this live 3D visualizer in my project. The face of the clown moves according to the noise produced and keeps changing expressions.
 
-The project integrates **Jamendo’s API** to allow music search and streaming, as well as local audio upload support. Visuals include animated face parts and a fire particle system triggered by audio frequencies.
+The project uses Jamendo’s API to enable users to search, play and upload music they recorded locally. This work includes animated facial movements and a set of fire particles responding to sound emitted by the audio tracks.
 
 ## Live Demo
 🔗 [Click to View](https://abdullahaljaberi.github.io/music-visualizer/)
 
 ## Features
-- 3D clown face built using Three.js
-- Reacts to music volume and frequency
-- Fire particle effect changes with intensity
-- Upload your own audio or stream from Jamendo
-- Toggle volume and fire level using keyboard arrows
+- I built this 3D clown face using the Three.js library.
+- Adjusts itself to different music volume and frequency.
+- Particles in the fire change depending on how much movement there is.
+- You can upload your own works to Jamendo or choose to stream them.
+- Raise or lower the volume buttons + and - (top keys next to number 0) and the fire level with the button up and button down arrows on your keyboard.
 
 ## Technologies Used
 - Three.js (WebGL)
